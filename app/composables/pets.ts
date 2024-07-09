@@ -33,3 +33,24 @@ export const usePets = async () => {
 
   return { allPets, somePets, fetchBreed }
 }
+
+
+
+export const useElderCareFeatures = async () => {
+  const { data, error } = await useFetch('/api/elder-care/local-data')
+
+  if (error.value) {
+    throw createError({
+      ...error.value,
+      statusMessage: `Couldn't fetch elder care features.`,
+    })
+  }
+
+  const fetchFeatureByType = (type?: string) => {
+    return data.value.allFeatures.filter((feature) => !type || feature.type === type)
+  }
+
+  const { allFeatures, someFeatures } = data.value
+
+  return { allFeatures, someFeatures, fetchFeatureByType }
+}
