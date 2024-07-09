@@ -1,17 +1,17 @@
 <script setup lang="ts">
 const callToActions = [
   {
-    img: 'https://images.unsplash.com/photo-1585664811087-47f65abbad64?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDEwfHxkb2clMjBob3VzZXxlbnwwfHx8fDE2MzA0NjM2Mzg&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=900&h=1000&fit=crop',
+    img: 'http://localhost:3000/imgz/sq3.jpeg?',
     action: 'Monitor Health',
     to: '/monitor',
   },
   {
-    img: 'https://images.unsplash.com/photo-1499946682598-202f5b527154?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDkzfHxmZWVkJTIwaGFtc3RlcnxlbnwwfHx8fDE2MzA0NjQ1Mzc&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=900&h=1000&fit=crop',
+    img: 'http://localhost:3000/imgz/sq2.jpeg?',
     action: 'Contact Doctor',
     to: '/contact',
   },
   {
-    img: 'https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDR8fHBldHxlbnwwfHx8fDE2MzA0NjI1MjM&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=900&h=1000&fit=crop',
+    img: 'http://localhost:3000/imgz/sq1.jpeg?',
     action: 'Travel Assistance',
     to: '/travel',
   },
