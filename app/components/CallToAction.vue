@@ -1,17 +1,17 @@
 <script setup lang="ts">
 const callToActions = [
   {
-    img: 'http://localhost:3000/imgz/sq3.jpeg?',
+    img: 'https://wellguard.netlify.app/imgz/sq3.jpeg?',
     action: 'Monitor Health',
     to: '/monitor',
   },
   {
-    img: 'http://localhost:3000/imgz/sq2.jpeg?',
+    img: 'https://wellguard.netlify.app/imgz/sq2.jpeg?',
     action: 'Contact Doctor',
     to: '/contact',
   },
   {
-    img: 'http://localhost:3000/imgz/sq1.jpeg?',
+    img: 'https://wellguard.netlify.app/imgz/sq1.jpeg?',
     action: 'Travel Assistance',
     to: '/travel',
   },

@@ -225,13 +225,13 @@ const pg_font_urls = ['https://fonts.googleapis.com/css?family=Proza+Libre:400,5
 ]
 
 const pg_backgrounds = {
-  'design-image': "url('http://localhost:3000/imgz/la1.jpeg?')",
-  'design-image-large': "url('http://localhost:3000/imgz/la1.jpeg?')",
+  'design-image': "url('https://wellguard.netlify.app/imgz/la1.jpeg?')",
+  'design-image-large': "url('https://wellguard.netlify.app/imgz/la1.jpeg?')",
 }
 
 const pg_background_urls = {
-  'design-image': 'http://localhost:3000/imgz/la1.jpeg?',
-  'design-image-large': 'http://localhost:3000/imgz/la1.jpeg?',
+  'design-image': 'https://wellguard.netlify.app/imgz/la1.jpeg?',
+  'design-image-large': 'https://wellguard.netlify.app/imgz/la1.jpeg?',
 }
 
 
