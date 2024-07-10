@@ -9,7 +9,7 @@ const { navlinks, navlinksPrimary, navlinksSecondary, currentPath } = useNav()
         <div class="flex h-24 items-center justify-between">
           <div class="flex items-center justify-between w-full">
             <div class="flex flex-shrink-0 items-center">
-              <TheLogo />
+              <TheLogoWellGuard />
             </div>
             <NavPrimary :navlinks="navlinksPrimary" :current-path="currentPath" class="hidden sm:flex sm:ml-6" />
           </div>

@@ -1,31 +1,26 @@
 <script setup>
 definePageMeta({
-  // layout: 'default',
-  // name: 'blog',
-  // alias: 'blog',
-  title: 'Adopt Now',
-  description: 'Adopt Your Fur Mate!',
+  title: 'Our Features',
+  description: 'Discover Our AI-Driven Elder Care Solutions',
   navOrder: 2,
   type: 'primary',
-  icon: 'i-mdi-home',
-  // ogImage: 'images/ogImage.png', // url or local images inside public folder, for eg, ~/public/images/ogImage.png
+  icon: 'i-mdi-star',
 })
 </script>
 <template>
   <div class="py-12 bg-primary-100 dark:bg-primary-700 text-primary-900 dark:text-primary-100">
     <div class="flex flex-col items-center">
       <div class="px-4 text-center w-full lg:w-7/12">
-        <h6 class="uppercase">Adopt A Pet</h6>
-        <h3 class="capitalize">Small Gesture For A Big Impact</h3>
+        <h6 class="uppercase">Our Features</h6>
+        <h3 class="capitalize">Innovative Solutions for Better Elder Care</h3>
         <p class="mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae
-          congue tortor.
+          Explore how our AI technology enhances the quality of elder care, making it more efficient and compassionate.
         </p>
       </div>
     </div>
     <div class="-mt-4 mx-auto pt-8 px-4 relative">
       <div class="-mx-4 flex flex-wrap items-center justify-center mb-4">
-        <PetList />
+        <FeatureList />
       </div>
     </div>
   </div>
